@@ -1,13 +1,11 @@
-import "./App.css";
-import Navbar from "./components/navbar/Navbar";
+import React from "react";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <Navbar />
-      <h1>Dominic Lakshan</h1>
+    <div>
+      <h1>GPT3</h1>
     </div>
   );
-}
+};
 
 export default App;
